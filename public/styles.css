@@ -1,0 +1,43 @@
+body {
+	padding:0;
+	margin:50px;
+}
+
+#myCanvas {
+
+	background: #eee;
+	display: block;
+	margin: 0 auto;
+	align-self: auto;
+	border: 2px #FF0000;
+}
+#launch {
+	padding: 5px;
+	font-size: 18px;
+}
+
+#time{
+	padding: 30px 40px;
+	font-size: 36px;
+	left: 47%;
+	position: absolute;
+	top: 25%;
+	border-radius: 50%;
+}
+
+#lives {
+	font-size: 16px;
+}
+
+#gover {
+	position: absolute;
+	top: 25%;
+	left: 45%;
+	font-size: 24px;
+	border-radius: 50%;
+	padding: 60px 25px;
+}
+
+#footer-section {
+	margin-left: 40%;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+	<meta charset="UTF-8">
+	<title>game</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div>	
+    <button id="gover">Game Over</button>
+	<button id = "time"> <span id="countdown"></span></button>
+	<canvas id = "myCanvas" width = "600" height = "400"></canvas>
+	<div id="footer-section">
+		<span>Speed: </span><button onclick="changeSpeed(false)">-</button><span id="speedTxt"></span><button onclick="changeSpeed(true)">+</button>
+		<button id="launch">launch</button>
+		<button>lives: <span id="lives"></span></button>
+		<button>You won: <span id="cent">00</span> cents</button>
+	</div>
+</div>
+
+	<script type="text/javascript" src = "script.js"></script>
+
+</body>
+</html>
